@@ -9,3 +9,7 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-Theme Sorin
 ```
+Window like alias on powershell script 
+```powershell
+Set-Alias -Name ll -Value ls
+```
