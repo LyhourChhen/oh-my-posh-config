@@ -9,7 +9,9 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-Theme Sorin
 ```
-Window like alias on powershell script 
+Window like alias on powershell script, and define to `. $profile`
+
 ```powershell
-Set-Alias -Name ll -Value ls
+New-Alias open explorer.exe
+New-Alias ll ls
 ```
